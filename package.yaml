@@ -27,7 +27,7 @@ library:
   source-dirs: src
 
 executables:
-  fileStructure-exe:
+  fileStructure:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -38,7 +38,7 @@ executables:
     - fileStructure
 
 tests:
-  fileStructure-test:
+  fileStructure:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
