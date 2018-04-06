@@ -38,7 +38,7 @@ executables:
     - fileStructure
 
 tests:
-  fileStructure:
+  fileStructureTest:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
