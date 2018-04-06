@@ -1,4 +1,7 @@
 module Main where
 
+import Options.Declarative(run_)
+import CommandlineParser
+
 main :: IO ()
-main = putStrLn "show fileStructure program"
+main = run_ mainParser
