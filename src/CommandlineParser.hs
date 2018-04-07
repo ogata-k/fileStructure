@@ -2,6 +2,8 @@
 module CommandlineParser (mainParser) where
 
 import Options.Declarative
+import Control.Monad.IO.Class
+import FileStructure
 
 -- fileStructure targetDir -to targetFileName
 mainParser  :: Arg "targetDir" FilePath

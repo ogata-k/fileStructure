@@ -1,7 +1,5 @@
 module FileStructure(
-      FileStructure(..)
-    , toString
-    , convert
+       printFileStructure
 )where
 
 import System.Directory
