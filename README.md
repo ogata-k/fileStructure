@@ -8,9 +8,8 @@
 といった形で表示します。そして指定ディレクトリ下にあるファイルを全て書き出すので指定ディレクトリによっては時間がかかるかもしれません。
 
 # 使い方
-fileStructure targetDir [-to targetFileName]
+fileStructure targetDir
 とコマンドプロンプトに入力して使います。([]はオプションです。)
 targetDir       :開始ディレクトリとなるディレクトリ
-targetFileName  :結果を格納するファイルの名前
 
-詳しくは fileStructure -help と入力してください。
+詳しくは fileStructure --help と入力してください。
